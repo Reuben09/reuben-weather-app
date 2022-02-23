@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: #1D1D1D;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overall-container{
+  background-color: #201D1E;
+  border: 1px solid #fff;
+  padding: 2rem 2rem;
+  border-radius: 0.4rem;
+}
+input{
+  padding: 0.5rem 0.5rem;
+  margin-right: 0.4rem;
+  color: #201D1E;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  border: 1px solid #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+button{
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  color: #fafafa;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  background-color: #EAA66D;
+  border: 1px solid #EAA66D;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.temp-container, .press-container,  .desc-container{
+  margin-bottom: 1rem;
+  border: 1px solid #fafafa;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.4rem;
+  font-family: 'Poppins', sans-serif
+}
+.temp-mini-container, .press-mini-container,  .desc-mini-container{
+  display: flex;
+  align-items: center;
+}
+span{
+  text-align: left;
+  margin-right: 2rem;
+}
+.loading-container h3{
+   font-size: 1.4rem;
+   font-family: 'Poppins', sans-serif;
+}
+.input-container{
+  margin-bottom: 2rem;
+}
+.temp-icon-container, .press-icon-container, .desc-icon-container{
+  padding-right: 1rem;
+}
+
+
+
